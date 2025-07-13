@@ -26,9 +26,8 @@ export default function Hero() {
           </div>
         </div>
         <Link
-          to="articles"
+          to="article"
           smooth={true}
-          duration={1000}
           className="flex flex-col items-center space-y-2 transition-all duration-300 group cursor-pointer mb-6">
           <h2 className="text-white font-light text-sm uppercase border-b-[0.1px] pb-2 border-primary-white/80 tracking-widest font-outfit">
             Shop now
