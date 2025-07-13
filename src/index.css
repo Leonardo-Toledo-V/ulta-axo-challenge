@@ -1,1 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #F37830;
+  --color-primary-dark: #f48341;
+  --color-primary-light: #fcd8c3;
+  --color-primary-white: #fef4ef;
+  --font-imbue: 'Imbue', sans-serif;
+  --font-outfit: 'outfit', sans-serif;
+  --color-primary-black: #101010;
+  --breakpoint-xs: 400px;
+}
+
+::selection {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-black);
+}
