@@ -16,6 +16,7 @@ export default function CountdownTimer() {
         src="/candle.jpg"
         alt="Background Image"
         className="absolute inset-0 w-full h-full object-cover -z-10"
+        loading='lazy'
       />
       <div className="absolute inset-0 bg-black/70 -z-10" />
       <div className="flex flex-col items-center justify-center h-full px-4">

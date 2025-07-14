@@ -120,7 +120,7 @@ export default function Header() {
                 <span className="sr-only">Ulta Beauty</span>
                 <img
                   alt="Ulta Beauty Logo"
-                  src="public/ulta-logo.webp"
+                  src="/ulta-logo.webp"
                   className="h-10 w-auto"
                 />
               </a>

@@ -9,7 +9,7 @@ export default function Hero() {
         <Header />
       </div>
       <img
-        src="/hero.jpg"
+        src="/hero.webp"
         alt="Background Image"
         className="absolute inset-0 w-full h-full object-cover -z-10 backdrop-opacity-90"
       />
