@@ -3,7 +3,7 @@ import CustomButton from "../../common/CustomButton";
 
 export default function BeautyProducts() {
   return (
-    <div className="w-full pb-16 bg-[#F7F2E9]">
+    <div className="w-full bg-[#F7F2E9]">
       <div className="px-4 lg:px-14 py-18">
         <h3 className="font-merriweather  text-4xl lg:text-7xl text-primary-black">
           Summer-ready beauty
