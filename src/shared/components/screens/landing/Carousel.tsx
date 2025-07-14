@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useItemsPerView } from '../../../../hooks/useItemsPerView';
-import ProductCard from '../../common/ProductCard';
 import { useProduct } from '../../../../features/product/presentation/controllers/useProduct';
+import ProductCard from '../../common/ProductCard';
 import ProductCardSkeleton from '../../common/ProductCardSkeleton';
 
 export default function Carousel() {
@@ -11,7 +11,6 @@ export default function Carousel() {
   useEffect(() => {
     getProductsByType({ product_type: "blush" })
   }, []);
-
 
   const itemsPerView = useItemsPerView({ base: 1, sm: 2, lg: 3, xl: 4 });
   const limitedProducts = products.slice(4, 16);

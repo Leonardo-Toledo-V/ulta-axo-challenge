@@ -2,16 +2,16 @@ interface CustomButtonProps {
   text: string,
   variant: "primary" | "secondary",
   size: "md" | "sm" | "lg",
-  disabled: boolean,
-  onClick: () => void,
-  className: string,
+  disabled?: boolean,
+  onClick?: () => void,
+  className?: string,
 }
 
 export default function CustomButton({ text, variant, size, disabled, onClick, className }: CustomButtonProps) {
-  const baseClasses = "inline-flex items-center justify-center font-medium transition-all duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed";
+  const baseClasses = "inline-flex items-center justify-center transition-colors duration-500 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer rounded-3xl active:scale-95 font-outfit";
   const variants = {
-    primary: "bg-primary-black text-white hover:bg-primary-black/85 focus:ring-primary-black active:scale-95 rounded-3xl cursor-pointer transition-colors duration-500",
-    secondary: "bg-primary text-primary-white border border-primary hover:bg-primary/85 focus:ring-primary active:scale-95 rounded-3xl cursor-pointer transition-colors duration-500",
+    primary: "bg-primary-black text-primary-white hover:bg-primary-black/85 focus:ring-primary-black",
+    secondary: "bg-primary-white text-primary-black shadow-xs hover:bg-primary-black hover:text-white focus:ring-primary-black",
   };
 
   const sizes = {
