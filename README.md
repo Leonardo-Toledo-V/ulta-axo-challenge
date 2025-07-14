@@ -4,7 +4,7 @@ Una recreación de la página principal de Ulta Beauty, desarrollada como parte 
 
 ## Preview
 
-![Ulta Beauty Clone](./hero.webp)
+![Ulta Beauty Clone](./preview.png)
 
 ## Objetivo
 
