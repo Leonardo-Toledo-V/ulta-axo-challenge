@@ -13,7 +13,7 @@ export default function CountdownTimer() {
   return (
     <section className="relative w-full h-[75dvh] overflow-hidden">
       <img
-        src="/candle.jpg"
+        src="/candle.webp"
         alt="Background Image"
         className="absolute inset-0 w-full h-full object-cover -z-10"
         loading='lazy'
