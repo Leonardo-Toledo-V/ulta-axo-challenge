@@ -78,7 +78,7 @@ export default function Header() {
                 className="-m-2 flex items-center p-2 font-light text-primary-black hover:text-primary-black/55 transition-colors duration-300 font-outfit">
                 <img
                   alt=""
-                  src="/public/usa.svg"
+                  src="/usa.svg"
                   className="block h-auto w-5 shrink-0"
                 />
                 <span className="ml-3 block">USD</span>
@@ -149,7 +149,7 @@ export default function Header() {
                   className="flex items-center text-primary-white hover:text-primary-white/50 transition-color duration-300">
                   <img
                     alt=""
-                    src="public/usa.svg"
+                    src="/usa.svg"
                     className="block h-auto w-5 shrink-0"
                   />
                   <span className="ml-3 block font-light">USD</span>
