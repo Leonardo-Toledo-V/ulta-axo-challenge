@@ -106,6 +106,20 @@ cd ulta-axo-challenge
 npm install
 ```
 
+### Crear archivo .env:
+```bash
+touch .env
+```
+
+### Agregar en el .env la siguiente línea:
+```bash
+VITE_API_URL="nombre de la api"
+```
+En este caso utilicé la API pública de "https://makeup-api.herokuapp.com", así equ el endpoint principal de la API es el siguiente:
+```bash
+http://makeup-api.herokuapp.com/api/v1/products.json
+```
+
 ### Ejecutar el proyecto:
 
 ```bash
